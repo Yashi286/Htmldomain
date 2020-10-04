@@ -1,0 +1,31 @@
+
+ul.a {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+ul.b {
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+  list-style-position: outside;
+}
+.b1{
+     position: absolute;
+    right: 50px;
+    /* width: 200px; */
+    /* height: 120px; */
+    /* border: 3px solid green; */
+  } 
+
+
+
+
