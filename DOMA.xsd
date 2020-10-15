@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Register">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="Registered">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="User Id" type="xs:string" />
+            <xs:element name="Addressr" type="xs:string"/>
+            <xs:element name="MNo" type="xs:integer"/>
+            <xs:element name="Duration" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="User">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Occupation" type="xs:integer"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+<xs:element name="gender">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="male|female"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
+</xs:schema> 

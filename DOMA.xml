@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="DOMA.xsl"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="DOMASchema.xsd">
+<Registered>
+    <UserId>P101</UserId>
+    <Address>D-26 VASANT VIHAR NEW DELHI,INDIA</Address>
+    <MNo>5567439484</MNo>
+    <Duration>5 YEARS</Duration>
+
+</Registered>
+<User>
+    <Name>ALKA JAIN</Name>
+    <Occupation>HOUSE WIFE</Occupation>
+     <gender>Female</gender>
+</User>
+
+<Registered>
+    <UserId>P145</UserId>
+    <Address>FLAT NO 5 PORTLOUIS BELLAVISA MARITTIOUS</Address>
+    <MNo>7765482935</MNo>
+    <Duration>10 YEARS</Duration>
+</Registered>
+<User>
+    <Name>SWEETY NAIR</Name>
+    <Occupation>AIR HOSTESS</Occupation>
+     <gender>Female</gender>
+</User>
+
+<Registered>
+    <UserId>P987</UserId>
+    <Address>1/23B FLAT NO 89 NARIMAN POINT MUMBAI</Address>
+    <MNo>4757465346</MNo>
+    <Duration>8YEARS</Duration>
+</Registered>
+<User>
+    <Name>SHASHANK MATHUR</Name>
+    <Occupation>ADVOCATE HIGH COURT</Occupation>
+     <gender>Male</gender>
+</User>
+
+<Registered>
+    <UserId>P990</UserId>
+    <Address>DOWNHILL ROAD BELL VIEW APARTMENTS UDAIPUR</Address>
+    <MNo>8375745744</MNo>
+    <Duration>5 YEARS</Duration>
+</Registered>
+<User>
+    <Name>GHANSHYAM GODPOLE</Name>
+    <Occupation>CONTRACTOR</Occupation>
+     <gender>Male</gender>
+</User>
+
+<Registered>
+    <UserId>P003</UserId>
+    <Address>SATARA VILLAGE HOUSE NO 789 AURANGABAD</Address>
+    <MNo>8347584874</MNo>
+    <Duration>6.5 YEARS</Duration>
+</Registered>
+<User>
+    <Name>SACHIN TICHKULE</Name>
+    <Occupation>MUNCIPALITY WORKER</Occupation>
+     <gender>Male</gender>
+</User>
+</Register>
+
+    
+   
