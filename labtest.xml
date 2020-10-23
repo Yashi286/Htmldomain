@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="labtest.xsl"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="labtestSchema.xsd">
+
+<Employee>
+    <Name>ALKA JAIN</Name>
+    <age>45</age>
+    <salary>60000</salary>
+    <emailid>alk@123.com</emailid>
+    <Phonenum>224765</Phonenum>
+    <designation>clercial</designation>
+</Employee>
+
+   
+<Employee>
+    <Name>Reena shukla</Name>
+    <age>23</Emp-age>
+    <salary>70000</salary>
+    <emailid>reenu6@dotcom</emailid>
+    <Phonenum>6574684</Phonenum>
+    <designation>manager</designation>
+ </Employee>
+
+   
+<Employee>
+    <Name>Yashi sharma</Name>
+    <age>21</age>
+    <salary>50000</salary>
+    <emailid>yashiSh@gmail.com</emailid>
+    <Phonenum>223456</Phonenum>
+    <designation>Ceo</designation>
+ </Employee>
+
+   
+<Employee>
+    <Name>Samridhi kabra</Name>
+    <age>24</age>
+    <salary>55000</salary>
+    <emailid>skk@mish.com</emailid>
+    <Phonenum>225679</Phonenum>
+    <designation>ldc</designation>
+ </Employee>
+
+  
+<Employee>
+    <Name>Paru arora</Name>
+    <age>54</age>
+    <salary>70000</salary>
+    <emailid>paruu2@dotcom</emailid>
+    <Phonenum>9876575643</Phonenum>
+    <designation>vice-president</designation>
+ </Employee>
+ </Company>  
+
+
+
+
+    
+   

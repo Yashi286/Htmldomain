@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xs:complexType>
+    <xs:sequence>
+      <xs:element name="Company">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element Emp-name="Name" type="xs:string"/>
+            <xs:element Emp-age="age" type="xs:integer"/>
+            <xs:element Emp-salary="salary" type="xs:integer"/>
+            <xs:element Emp-emailid="emailid" type="xs:string"/>
+            <xs:element Emp-Phonenum="Phonenum" type="xs:integer"/>
+            <xs:element Emp-designation="designation" type="xs:string"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="salary">
+        <xs:simpleType>
+          <xs:restriction base ="xs:integer">
+          <xs:minInclusive value="50,000"/>
+          <xs:maxInclusive value="2,00,000"/>
+          </xs:restriction>
+          </xs:simpleType>
+          </xs:element>
+
+      </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema> 
