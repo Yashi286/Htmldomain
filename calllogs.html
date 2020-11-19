@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>
+Displaying calling numbers
+</title>
+<!-- <link rel="stylesheet" href="yelo1.css"> -->
+<!-- <style> -->
+  <!-- body { -->
+    <!-- background-color: lightblue; -->
+  <!-- } -->
+  <!-- </style> -->
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+<h1 class="center">CONTACT US</h1>
+
+<a href="staticwebpage.html">
+  <img src="mh.jpg"  style="width:300px;height:350px;" class="center">
+</a>
+<table style="width:100%" class="center">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Phone number</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>8838723001</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>9413456791</td>
+  </tr>
+  <tr>
+    <td>joe</td>
+    <td>Jackson</td>
+    <td>9034567981</td>
+  </tr>
+  <tr>
+    <td>larry</td>
+    <td>Jon</td>
+    <td>+1134567910</td>
+  </tr>
+  <tr>
+    <td>vivian</td>
+    <td>son</td>
+    <td>9419956791</td>
+  </tr>
+  <tr>
+    <td>Evlyn</td>
+    <td>Jain</td>
+    <td>9013456791</td>
+  </tr>
+</table>
+
+
+<body>
+    <select id="demo" onchange="show()">
+        <option value="Select Color">Select Color</option>
+        <option value="red">Red</option>
+        <option value="pink">Pink</option>
+        <option value="green">Green</option>
+    </select>
+    <script>
+        function show()
+        {
+            var value=document.getElementById("demo").value;
+            if(value!="Select Color")
+            {
+                document.bgColor=value;
+                document.cookie="color="+value+";expires=Fri,1 Aug 1970 01:00:00 UTC;";
+            }
+        }
+        window.onload=function()
+        {
+            if(document.cookie.length!=0)
+            {
+                var a=document.cookie.split("=");
+                document.getElementById("demo").value=a[1];
+                document.bgColor=a[1];
+            }
+        }
+    </script>
+</body>
+</html> 
+
